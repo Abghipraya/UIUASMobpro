@@ -162,7 +162,7 @@ class MyHomePage extends StatelessWidget {
                         'See All',
                         style: TextStyle(
                           fontSize: 14,
-                          color: Color.fromARGB(255, 219, 140, 20), // You can adjust the color
+                          color: Color.fromARGB(255, 219, 140, 20), 
                         ),
                       ),
                     ),
@@ -212,7 +212,7 @@ class MyHomePage extends StatelessWidget {
                         'See All',
                         style: TextStyle(
                           fontSize: 14,
-                          color: Color.fromARGB(255, 219, 140, 20), // You can adjust the color
+                          color: Color.fromARGB(255, 219, 140, 20), 
                         ),
                       ),
                     ),
@@ -253,7 +253,7 @@ class MyHomePage extends StatelessWidget {
         items: [
           BottomNavigationBarItem(
   icon: Padding(
-    padding: EdgeInsets.only(top: 8.0), // Adjust the top padding as needed
+    padding: EdgeInsets.only(top: 8.0), 
     child: Container(
       width: 50,
       height: 18,
@@ -419,9 +419,9 @@ class RecipeCard extends StatelessWidget {
 
 class AvatarRecipeCard extends StatelessWidget {
   final String dishName;
-  final String time; // Assuming time should be replaced with a book icon
-  final String difficulty; // Assuming difficulty should be replaced with a heart icon
-  final String imageUrl; // Image URL for the frame
+  final String time; 
+  final String difficulty; 
+  final String imageUrl; 
 final String chefName;
   AvatarRecipeCard({
     required this.dishName,
@@ -461,13 +461,13 @@ final String chefName;
                 topLeft: Radius.circular(12),
                 topRight: Radius.circular(12),
               ),
-              color: const Color.fromARGB(255, 218, 218, 218), // You can change the background color
+              color: const Color.fromARGB(255, 218, 218, 218), 
             ),
             child: Center(
               child: CircleAvatar(
                 radius: 30,
                 backgroundImage: NetworkImage(
-                  imageUrl, // Use the specified image URL for the frame
+                  imageUrl, 
                 ),
               ),
             ),
@@ -488,13 +488,13 @@ final String chefName;
             child: Row(
               children: [
                 Icon(
-                  Icons.book, // Change the icon to a book
+                  Icons.book, 
                   size: 14,
                   color: const Color.fromARGB(255, 129, 129, 129),
                 ),
                 SizedBox(width: 6),
                 Text(
-                  time, // Assuming time is replaced with a book icon
+                  time, 
                   style: TextStyle(
                     fontSize: 12,
                     color: const Color.fromARGB(255, 129, 129, 129),
@@ -508,13 +508,13 @@ final String chefName;
             child: Row(
               children: [
                 Icon(
-                  Icons.favorite, // Change the icon to a heart
+                  Icons.favorite, 
                   size: 14,
                   color: Colors.black,
                 ),
                 SizedBox(width: 4),
                 Text(
-                  difficulty, // Assuming difficulty is replaced with a heart icon
+                  difficulty,
                   style: TextStyle(
                     fontSize: 12,
                     fontWeight: FontWeight.bold,
