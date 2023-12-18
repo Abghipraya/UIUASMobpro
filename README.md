@@ -18,7 +18,7 @@ Pembuatan implementasi UI ini memiliki kemiripan sebesar 95% dimana terdapat beb
 
 untuk kesesuaian dapat dibandingkan secara langsung dengan cloning aplikasi ini
 
-# cara menjalankan kode
+# Cara menjalankan kode
 
 1). git clone <https://github.com/Abghipraya/UIUASMobpro.git>
 
@@ -29,3 +29,7 @@ untuk kesesuaian dapat dibandingkan secara langsung dengan cloning aplikasi ini
 4). Buka Emulator
 
 5). Run Without Debugging.
+
+# Sertifikat Tubes dan Badge
+![A POS application](src/main/badge.png)
+![A POS application](src/main/tubes.png)
