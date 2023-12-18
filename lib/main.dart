@@ -41,6 +41,7 @@ class MyHomePage extends StatelessWidget {
                           'What do you want to cook today?',
                           style: TextStyle(
                             fontSize: 16,
+                             fontWeight: FontWeight.bold,
                             color: const Color.fromARGB(255, 129, 129, 129),
                           ),
                         ),
@@ -102,6 +103,7 @@ class MyHomePage extends StatelessWidget {
                         'Get Your Personalized Recipe ',
                         style: TextStyle(
                           fontSize: 16,
+                          
                           color: const Color.fromARGB(255, 129, 129, 129),
                         ),
                       ),
@@ -362,6 +364,7 @@ class RecipeCard extends StatelessWidget {
               label1,
               style: TextStyle(
                 fontSize: 12,
+                 fontWeight: FontWeight.bold,
                 color: const Color.fromARGB(255, 129, 129, 129),
               ),
             ),
@@ -380,6 +383,7 @@ class RecipeCard extends StatelessWidget {
                   time,
                   style: TextStyle(
                     fontSize: 12,
+                     fontWeight: FontWeight.bold,
                     color: const Color.fromARGB(255, 129, 129, 129),
                   ),
                 ),
@@ -393,7 +397,7 @@ class RecipeCard extends StatelessWidget {
                 Icon(
                   Icons.star,
                   size: 14,
-                  color: Colors.black,
+                  color: const Color.fromARGB(255, 129, 129, 129),
                 ),
                 SizedBox(width: 4),
                 Text(
@@ -401,7 +405,7 @@ class RecipeCard extends StatelessWidget {
                   style: TextStyle(
                     fontSize: 12,
                     fontWeight: FontWeight.bold,
-                    color: Colors.black,
+                    color: const Color.fromARGB(255, 129, 129, 129),
                   ),
                 ),
               ],
@@ -421,6 +425,7 @@ class RecipeCard extends StatelessWidget {
                   chefName,
                   style: TextStyle(
                     fontSize: 12,
+                     fontWeight: FontWeight.bold,
                     color: const Color.fromARGB(255, 129, 129, 129),
                   ),
                 ),
@@ -516,6 +521,7 @@ final String chefName;
                   time, 
                   style: TextStyle(
                     fontSize: 12,
+                     fontWeight: FontWeight.bold,
                     color: const Color.fromARGB(255, 129, 129, 129),
                   ),
                 ),
@@ -529,15 +535,15 @@ final String chefName;
                 Icon(
                   Icons.favorite, 
                   size: 14,
-                  color: Colors.black,
+                  color: const Color.fromARGB(255, 129, 129, 129),
                 ),
                 SizedBox(width: 4),
                 Text(
                   difficulty,
                   style: TextStyle(
                     fontSize: 12,
-                    fontWeight: FontWeight.bold,
-                    color: Colors.black,
+
+                    color:  const Color.fromARGB(255, 129, 129, 129),
                   ),
                 ),
               ],
