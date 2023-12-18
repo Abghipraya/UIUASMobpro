@@ -58,12 +58,12 @@ class MyHomePage extends StatelessWidget {
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(12),
                     border: Border.all(
-                      color: const Color.fromARGB(255, 218, 218, 218).withOpacity(0.5),
+                      color: Color.fromARGB(255, 206, 195, 195).withOpacity(0.5),
                       width: 2,
                     ),
                     boxShadow: [
                       BoxShadow(
-                        color: const Color.fromARGB(255, 218, 218, 218).withOpacity(0.5),
+                        color: Color.fromARGB(255, 197, 189, 189).withOpacity(0.5),
                         spreadRadius: 5,
                         blurRadius: 7,
                         offset: Offset(0, 3),
