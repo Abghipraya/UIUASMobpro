@@ -47,7 +47,7 @@ class MyHomePage extends StatelessWidget {
                       ],
                     ),
                     AvatarFrame(
-                      imageUrl: 'https://www.1999.co.jp/itbig65/10650183.jpg',
+                      imageUrl: 'https://cdn.suruga-ya.com/database/pics_light/game/860031528.jpg',
                     ),
                   ],
                 ),
@@ -155,7 +155,6 @@ class MyHomePage extends StatelessWidget {
                     ),
                     TextButton(
                       onPressed: () {
-                        // Handle the "See All" action here
                         print('See All Popular Recipe pressed');
                       },
                       child: Text(
@@ -176,6 +175,8 @@ class MyHomePage extends StatelessWidget {
                       RecipeCard(
                         imageUrl: 'https://cdn1-production-images-kly.akamaized.net/uBuE5OD3B9pUTVNJd81cB819z7Y=/0x194:5616x3359/800x450/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/3048436/original/030475400_1581499756-shutterstock_413580649.jpg',
                         dishName: 'Spaghetti Bolognese',
+                        label1: 'Pasta',
+                        label2: '',
                         time: '30-45 Minutes',
                         difficulty: 'Medium',
                         chefName: 'Maria',
@@ -184,6 +185,8 @@ class MyHomePage extends StatelessWidget {
                       RecipeCard(
                         imageUrl: 'https://img.taste.com.au/d4JNfJUH/taste/2019/07/classic-beef-stew-151457-2.jpg',
                         dishName: 'Classic Beef Stew',
+                        label1: 'Meat',
+                        label2: '',
                         time: '45-60 Minutes',
                         difficulty: 'Easy',
                         chefName: 'Niki',
@@ -205,7 +208,6 @@ class MyHomePage extends StatelessWidget {
                     ),
                     TextButton(
                       onPressed: () {
-                        // Handle the "See All" action here
                         print('See All Popular Actor pressed');
                       },
                       child: Text(
@@ -296,6 +298,8 @@ class RecipeCard extends StatelessWidget {
   final String time;
   final String difficulty;
   final String chefName;
+  final String label1;
+  final String label2;
 
   RecipeCard({
     required this.imageUrl,
@@ -303,6 +307,8 @@ class RecipeCard extends StatelessWidget {
     required this.time,
     required this.difficulty,
     required this.chefName,
+    required this.label1,
+    required this.label2,
   });
 
   @override
@@ -347,6 +353,16 @@ class RecipeCard extends StatelessWidget {
                 fontSize: 14,
                 fontWeight: FontWeight.bold,
                 color: Colors.black,
+              ),
+            ),
+          ),
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Text(
+              label1,
+              style: TextStyle(
+                fontSize: 12,
+                color: const Color.fromARGB(255, 129, 129, 129),
               ),
             ),
           ),
@@ -416,6 +432,9 @@ class RecipeCard extends StatelessWidget {
     );
   }
 }
+
+
+
 
 class AvatarRecipeCard extends StatelessWidget {
   final String dishName;
