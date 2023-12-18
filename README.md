@@ -1,6 +1,13 @@
 # Implementasi UI UAS Mobpro
-![A POS application](src/main/done1.png)
-![A POS application](src/main/done2.png)
+
+By : 
+
+Nama : Muhammad Stia Abghipraya Adjie
+
+NIM : 211402092
+
+![A POS application](src/main/donefix.png)
+![A POS application](src/main/donefix2.png)
 
 # Implementasi UI aplikasi Pencarian resep
 
