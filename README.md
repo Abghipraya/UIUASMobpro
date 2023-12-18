@@ -6,8 +6,8 @@ Nama : Muhammad Stia Abghipraya Adjie
 
 NIM : 211402092
 
-![A POS application](src/main/donefix.png)
-![A POS application](src/main/donefix2.png)
+![A POS application](src/main/donefinal.png)
+![A POS application](src/main/donefinal1.png)
 
 # Implementasi UI aplikasi Pencarian resep
 
