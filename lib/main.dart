@@ -228,16 +228,16 @@ class MyHomePage extends StatelessWidget {
                   child: Row(
                     children: [
                       AvatarRecipeCard(
-                        imageUrl: 'https://img.wattpad.com/cover/337063381-256-k969823.jpg',
-                        chefName: 'I can Tooth',
+                        imageUrl: 'https://media.tenor.com/wmEx6bp6SocAAAAe/neuvillette-genshin-impact.png',
+                        chefName: 'Noval',
                         time: '124',
                         difficulty: '41391',
-                        dishName: 'Barbatos',
+                        dishName: 'Neuvilette',
                       ),
                       SizedBox(width: 10),
                       AvatarRecipeCard(
-                        imageUrl: 'https://i2.wp.com/genshinbuilds.aipurrjects.com/genshin/characters/navia/image.png?strip=all&quality=100',
-                        chefName: 'You Pink Sun',
+                        imageUrl: 'https://s3.eu-central-1.wasabisys.com/open3dlab-thumbs/item_thumb_next/138519/Navia_thumbnail.detail.webp',
+                        chefName: 'Navia',
                         time: '98',
                         difficulty: '7323',
                         dishName: 'Navia',
