@@ -58,7 +58,7 @@ class MyHomePage extends StatelessWidget {
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(12),
                     border: Border.all(
-                      color: Color.fromARGB(255, 206, 195, 195).withOpacity(0.5),
+                      color: Color.fromARGB(255, 80, 4, 4).withOpacity(0.5),
                       width: 2,
                     ),
                     boxShadow: [
@@ -232,7 +232,7 @@ class MyHomePage extends StatelessWidget {
                         chefName: 'I can Tooth',
                         time: '124',
                         difficulty: '41391',
-                        dishName: 'John',
+                        dishName: 'Barbatos',
                       ),
                       SizedBox(width: 10),
                       AvatarRecipeCard(
@@ -240,7 +240,7 @@ class MyHomePage extends StatelessWidget {
                         chefName: 'You Pink Sun',
                         time: '98',
                         difficulty: '7323',
-                        dishName: 'Emily',
+                        dishName: 'Navia',
                       ),
                     ],
                   ),
@@ -320,7 +320,7 @@ class RecipeCard extends StatelessWidget {
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(12),
         border: Border.all(
-          color: const Color.fromARGB(255, 218, 218, 218).withOpacity(0.5),
+          color: Color.fromARGB(255, 80, 4, 4).withOpacity(0.5),
           width: 2,
         ),
         boxShadow: [
@@ -365,7 +365,7 @@ class RecipeCard extends StatelessWidget {
               style: TextStyle(
                 fontSize: 12,
                  fontWeight: FontWeight.bold,
-                color: const Color.fromARGB(255, 129, 129, 129),
+                color: Color.fromARGB(255, 146, 41, 41),
               ),
             ),
           ),
@@ -462,7 +462,7 @@ final String chefName;
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(12),
         border: Border.all(
-          color: const Color.fromARGB(255, 218, 218, 218).withOpacity(0.5),
+          color: Color.fromARGB(255, 80, 4, 4).withOpacity(0.5),
           width: 2,
         ),
         boxShadow: [
